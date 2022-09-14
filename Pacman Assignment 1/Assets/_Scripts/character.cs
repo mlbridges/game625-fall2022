@@ -2,11 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//the script that controls character movement + tracks collision of character w other gameobjects, attached to player
 public class character : MonoBehaviour
 {
     private CharacterController characterController;
     public int Speed = 2;
     private int powerUp;
+
+    //event to tell enemy when powerup is or is not obtained
+    public delegate void Placeholder();
+    public static event Placeholder WeGotGems;
+    public static event Placeholder NoMoreGems;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,12 +41,18 @@ public class character : MonoBehaviour
             {
                 //destroy the player
                 Destroy(gameObject);
+                //tell the enemy no more powerups
+                if(NoMoreGems != null)
+                {
+                    NoMoreGems();
+                }
             }
 
             if(powerUp > 0)
             {
                 //destroy the enemy
                 Destroy(collision.gameObject);
+                //don't destroy, but freeze enemy?
                 //decrease the number of powerups by 1
                 powerUp -= 1;
                 Debug.Log("powerUp = " + powerUp);
@@ -55,6 +68,11 @@ public class character : MonoBehaviour
             Debug.Log("powerUp = " + powerUp);
             //destroy the powerup
             Destroy(collision.gameObject);
+            //SEND MESSAGE TO ENEMY TO RUN AWAY!!
+            if(WeGotGems != null)
+            {
+                WeGotGems();
+            }
         }
     }
 }
