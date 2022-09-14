@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 //the script that controls character movement + tracks collision of character w other gameobjects, attached to player
 public class character : MonoBehaviour
@@ -8,6 +9,7 @@ public class character : MonoBehaviour
     private CharacterController characterController;
     public int Speed = 2;
     private int powerUp;
+    private int enemyNumber = 3;
 
     //event to tell enemy when powerup is or is not obtained
     public delegate void Placeholder();
@@ -39,8 +41,8 @@ public class character : MonoBehaviour
             Debug.Log("collided with enemy");
             if(powerUp <= 0)
             {
-                //destroy the player
-                Destroy(gameObject);
+                //go to lose screen
+                SceneManager.LoadScene(3);
                 //tell the enemy no more powerups
                 if(NoMoreGems != null)
                 {
@@ -52,10 +54,22 @@ public class character : MonoBehaviour
             {
                 //destroy the enemy
                 Destroy(collision.gameObject);
-                //don't destroy, but freeze enemy?
+                enemyNumber--;
+                //load win scene if all enemies destroyed
+                if(enemyNumber <= 0)
+                {
+                    SceneManager.LoadScene(2);
+                }
                 //decrease the number of powerups by 1
-                powerUp -= 1;
+                powerUp--;
                 Debug.Log("powerUp = " + powerUp);
+                if(powerUp <= 0)
+                {
+                    if(NoMoreGems != null)
+                    {
+                        NoMoreGems();
+                    }
+                }
             }
         }
 

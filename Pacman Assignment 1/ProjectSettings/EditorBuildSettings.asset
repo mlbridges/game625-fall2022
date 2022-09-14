@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/pacmanLevel.unity
     guid: 3d3eeb4a22f584698ac8c882b1f23db8
+  - enabled: 1
+    path: Assets/Scenes/winScene.unity
+    guid: e17eac6dc41584024ae0919a57ac8fe2
+  - enabled: 1
+    path: Assets/Scenes/youDied.unity
+    guid: d5ac1e83b500346f89a0bb7abed05dfc
   m_configObjects: {}
