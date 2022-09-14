@@ -1,13 +1,18 @@
 ﻿<Properties StartupConfiguration="{D9A22D9E-A756-4D84-E28A-293C033FE8BA}|">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0cab5c4b-7599-43cf-b64c-cd734d0f4500" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/pursuePlayer.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b66a2bc4-bd9f-4b14-84c7-9578377adf02" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/InterfaceUpdater.cs">
     <Files>
-      <File FileName="Assets/_Scripts/character.cs" Line="58" Column="58" />
-      <File FileName="Assets/_Scripts/pursuePlayer.cs" Line="141" Column="49" />
+      <File FileName="Assets/_Scripts/character.cs" Line="27" Column="55" />
+      <File FileName="Assets/_Scripts/pursuePlayer.cs" Line="143" Column="31" />
       <File FileName="Assets/_Scripts/sceneChanger.cs" Line="1" Column="1" />
+      <File FileName="Assets/PointHolder.cs" Line="89" Column="33" />
+      <File FileName="Assets/_Scripts/FoodCollection.cs" Line="5" Column="46" />
+      <File FileName="Assets/InterfaceUpdater.cs" Line="22" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,7 +30,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

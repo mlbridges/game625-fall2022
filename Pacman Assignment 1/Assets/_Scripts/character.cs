@@ -22,6 +22,9 @@ public class character : MonoBehaviour
         //find and assign the character controller from the unity object
         characterController = GetComponent<CharacterController>();
         powerUp = 0;
+
+        //subscribe to the powerup eaten event
+        PointHolder.OnPowerUpEaten += ActivateRunning;
     }
 
     // Update is called once per frame
@@ -72,21 +75,18 @@ public class character : MonoBehaviour
                 }
             }
         }
+    }
 
-        //when the player collides with a power up
-        if(collision.gameObject.tag == "powerUp")
+    public void ActivateRunning()
+    {
+        Debug.Log("collided with powerup");
+        //increase the number of powerups by 1
+        powerUp += 1;
+        Debug.Log("powerUp = " + powerUp);
+        //SEND MESSAGE TO ENEMY TO RUN AWAY!!
+        if (WeGotGems != null)
         {
-            Debug.Log("collided with powerup");
-            //increase the number of powerups by 1
-            powerUp += 1;
-            Debug.Log("powerUp = " + powerUp);
-            //destroy the powerup
-            Destroy(collision.gameObject);
-            //SEND MESSAGE TO ENEMY TO RUN AWAY!!
-            if(WeGotGems != null)
-            {
-                WeGotGems();
-            }
+            WeGotGems();
         }
     }
 }
