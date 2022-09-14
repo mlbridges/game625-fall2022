@@ -37,10 +37,10 @@ public class character : MonoBehaviour
         characterController.Move(move * Time.deltaTime * Speed);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collider)
     {
         Debug.Log("collided with something");
-        if(collision.gameObject.tag == "enemy")
+        if(collider.gameObject.tag == "enemy")
         {
             Debug.Log("collided with enemy");
             if(powerUp <= 0)
@@ -57,7 +57,7 @@ public class character : MonoBehaviour
             if(powerUp > 0)
             {
                 //destroy the enemy
-                Destroy(collision.gameObject);
+                Destroy(collider.gameObject);
                 enemyNumber--;
                 //load win scene if all enemies destroyed
                 if(enemyNumber <= 0)

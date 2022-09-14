@@ -1133,6 +1133,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8400928871700053607, guid: 870e171ca60fb4fa39bdfcb4f9854806, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8400928871700053624, guid: 870e171ca60fb4fa39bdfcb4f9854806, type: 3}
       propertyPath: m_Name
       value: enemy2
@@ -5490,7 +5494,6 @@ GameObject:
   - component: {fileID: 1764894788}
   - component: {fileID: 1764894787}
   - component: {fileID: 1764894786}
-  - component: {fileID: 1764894785}
   - component: {fileID: 1764894784}
   - component: {fileID: 1764894783}
   - component: {fileID: 1764894789}
@@ -5532,19 +5535,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 2
---- !u!135 &1764894785
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764894782}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1764894786
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5622,7 +5612,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 64
+  m_Constraints: 68
   m_CollisionDetection: 0
 --- !u!4 &1821414768 stripped
 Transform:
@@ -5951,6 +5941,10 @@ PrefabInstance:
     - target: {fileID: 8400928871700053602, guid: 870e171ca60fb4fa39bdfcb4f9854806, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8400928871700053607, guid: 870e171ca60fb4fa39bdfcb4f9854806, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8400928871700053624, guid: 870e171ca60fb4fa39bdfcb4f9854806, type: 3}
       propertyPath: m_Name
@@ -6828,6 +6822,10 @@ PrefabInstance:
     - target: {fileID: 8400928871700053602, guid: 870e171ca60fb4fa39bdfcb4f9854806, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8400928871700053607, guid: 870e171ca60fb4fa39bdfcb4f9854806, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8400928871700053624, guid: 870e171ca60fb4fa39bdfcb4f9854806, type: 3}
       propertyPath: m_Name
