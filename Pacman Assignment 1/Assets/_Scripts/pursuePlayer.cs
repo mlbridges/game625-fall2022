@@ -87,7 +87,7 @@ public class pursuePlayer : MonoBehaviour
                 {
                     //enemy patrols waypoints
                     enemyAgent.SetDestination(currentDestination.position);
-                    EnemyPatrol();
+                    EnemyPursue();
                 }
             }
         }
