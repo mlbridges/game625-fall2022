@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using static UnityEditor.Timeline.Actions.MenuPriority;
 
+//this is the dictionary for the food and powerups, which is attached to an empty game object
+//this script sends messages to: player, interface updater
 public class PointHolder : MonoBehaviour
 {
     public Dictionary<string, int> FoodInv;

@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//this is attached to the food point thingies
+//this is attached to the food point thingies and tracks when we eat food
+//this script sends messages to: point holder
 public class FoodCollection : MonoBehaviour
 {
     public GameObject player;

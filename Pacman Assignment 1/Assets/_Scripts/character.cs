@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 //the script that controls character movement + tracks collision of character w other gameobjects, attached to player
+//this script sends messages to: pursue player
 public class character : MonoBehaviour
 {
     private CharacterController characterController;

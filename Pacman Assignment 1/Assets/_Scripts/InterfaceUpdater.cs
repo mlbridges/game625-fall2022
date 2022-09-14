@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//this script is attached to UI text and changes the text as items are picked up
 public class InterfaceUpdater : MonoBehaviour
 {
     public PointHolder points;
