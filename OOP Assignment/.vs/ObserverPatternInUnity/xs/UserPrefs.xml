@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{45C62D1D-FE02-DFB6-7369-B6DD3650510A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GreenCubeNotifier.cs">
+    <Files>
+      <File FileName="Assets/Scripts/AchievementSystem.cs" Line="29" Column="1" />
+      <File FileName="Assets/Scripts/GreenCubeNotifier.cs" Line="13" Column="6" />
+      <File FileName="Assets/TestN.cs" Line="16" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ObserverPatternInUnity" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="GreenCubeNotifier.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ba0be6b3-d9d5-41f5-b00f-33e3edefdf45" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Volumes/Data/ObserverPatternInUnity/Assets/Scripts/SubjectUnderObservation.cs" relfile="Assets/Scripts/SubjectUnderObservation.cs" line="16" column="1" />
+      <Breakpoint file="/Volumes/Data/ObserverPatternInUnity/Assets/Scripts/SubjectUnderObservation.cs" relfile="Assets/Scripts/SubjectUnderObservation.cs" line="21" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

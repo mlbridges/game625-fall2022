@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{DF4FB2C3-A0C9-214E-1CEB-EE62862AB332}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="166060b4-3be6-40d7-abec-45a333923395" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/GreenCubeScore.cs">
+    <Files>
+      <File FileName="Assets/_Scripts/Observer.cs" Line="8" Column="29" />
+      <File FileName="Assets/_Scripts/SubjectBeingObserved.cs" Line="20" Column="34" />
+      <File FileName="Assets/_Scripts/GreenCubeObserve.cs" Line="18" Column="27" />
+      <File FileName="Assets/_Scripts/InventorySystem.cs" Line="40" Column="10" />
+      <File FileName="Assets/_Scripts/Collectible.cs" Line="8" Column="29" />
+      <File FileName="Assets/_Scripts/OrangeCubeScore.cs" Line="8" Column="5" />
+      <File FileName="Assets/_Scripts/RedCubeScore.cs" Line="8" Column="77" />
+      <File FileName="Assets/_Scripts/GreenCubeScore.cs" Line="10" Column="32" />
+      <File FileName="Assets/_Scripts/RedCubeObserved.cs" Line="12" Column="30" />
+      <File FileName="Assets/_Scripts/OrangeCubeObserved.cs" Line="10" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ObserverPatternInUnityBarebone" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
