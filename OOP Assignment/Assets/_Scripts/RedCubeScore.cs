@@ -11,6 +11,11 @@ public class RedCubeScore : MonoBehaviour, Observer
     private void Start()
     {
         redCubeText = gameObject.GetComponent<Text>();
+
+        foreach (SubjectBeingObserved subject in FindObjectsOfType<SubjectBeingObserved>())
+        {
+            subject.AddObserver(this);
+        }
     }
 
     public void OnNotify(GameObject obj, NotificationType notificationType)
