@@ -16,7 +16,7 @@ public class InventorySystem : MonoBehaviour, Observer
 
     public void OnNotify(GameObject obj, NotificationType notificationType)
     {
-        Debug.Log("general notifications are happening");
+        //Debug.Log("general notifications are happening");
 
         //if (notificationType == NotificationType.OrangeCubeCollected)
         //{

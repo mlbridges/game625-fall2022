@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{05889D69-C95E-22D1-82E8-630EB99018C8}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/InventoryEventSystem.cs">
+    <Files>
+      <File FileName="Assets/_Scripts/Collectible.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/Observer.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/SubjectBeingObserved.cs" Line="24" Column="54" />
+      <File FileName="Assets/_Scripts/InventorySystem.cs" Line="19" Column="11" />
+      <File FileName="Assets/_Scripts/GreenCubeObserve.cs" Line="14" Column="6" />
+      <File FileName="Assets/_Scripts/OrangeCubeObserved.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/RedCubeObserved.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/GreenCubeScore.cs" Line="27" Column="15" />
+      <File FileName="Assets/_Scripts/OrangeCubeScore.cs" Line="24" Column="11" />
+      <File FileName="Assets/_Scripts/RedCubeScore.cs" Line="23" Column="11" />
+      <File FileName="Assets/_Scripts/GreenCubeEventCollection.cs" Line="18" Column="10" />
+      <File FileName="Assets/_Scripts/InventoryEventSystem.cs" Line="22" Column="127" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OOP Assignment" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="aefedc47-29a1-404a-a501-b43c0610e10f" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

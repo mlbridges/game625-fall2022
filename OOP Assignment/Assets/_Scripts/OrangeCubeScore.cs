@@ -21,7 +21,7 @@ public class OrangeCubeScore : MonoBehaviour, Observer
 
     public void OnNotify(GameObject obj, NotificationType notificationType)
     {
-        Debug.Log("orange cube score script notified");
+        //Debug.Log("orange cube score script notified");
         if (notificationType == NotificationType.OrangeCubeCollected)
         {
             Debug.Log("orange cube notif happening");

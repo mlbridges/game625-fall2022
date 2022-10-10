@@ -21,10 +21,10 @@ public class GreenCubeScore : MonoBehaviour, Observer
 
     public void OnNotify(GameObject obj, NotificationType notificationType)
     {
-        Debug.Log("green cube score script notified");
+        //Debug.Log("green cube score script notified");
         if (notificationType == NotificationType.GreenCubeCollected)
         {
-            Debug.Log("green cube specifically collected");
+            //Debug.Log("green cube specifically collected");
             _greenCubes.Add(obj);
             greenCubeText.text = "Green Cubes: " + _greenCubes.Count;
         }

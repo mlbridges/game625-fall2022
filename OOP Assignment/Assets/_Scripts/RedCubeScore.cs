@@ -20,7 +20,7 @@ public class RedCubeScore : MonoBehaviour, Observer
 
     public void OnNotify(GameObject obj, NotificationType notificationType)
     {
-        Debug.Log("red cube score script notified");
+        //Debug.Log("red cube score script notified");
         if (notificationType == NotificationType.RedCubeCollected)
         {
             Debug.Log("red cube notif happening");

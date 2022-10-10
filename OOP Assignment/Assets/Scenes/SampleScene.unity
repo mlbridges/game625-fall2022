@@ -641,7 +641,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 963194227}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -701,9 +701,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6058ebdf39c324117bd4e8d422e03d06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  orangeCubeText: {fileID: 19504069}
-  redCubeText: {fileID: 142584332}
-  greenCubeText: {fileID: 936093398}
 --- !u!4 &795573596
 Transform:
   m_ObjectHideFlags: 0
@@ -1099,6 +1096,98 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1033042082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1033042083}
+  - component: {fileID: 1033042085}
+  - component: {fileID: 1033042084}
+  - component: {fileID: 1033042086}
+  m_Layer: 5
+  m_Name: AchievementText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1033042083
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033042082}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1843804972}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -97.69209, y: -123.106415}
+  m_SizeDelta: {x: 424.6158, y: 30.2128}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1033042084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033042082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: You have accomplished nothing.
+--- !u!222 &1033042085
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033042082}
+  m_CullTransparentMesh: 1
+--- !u!114 &1033042086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033042082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c482714a4ee445fb413f42e1a5f12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1634232900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1220,6 +1309,7 @@ GameObject:
   - component: {fileID: 1809888583}
   - component: {fileID: 1809888582}
   - component: {fileID: 1809888586}
+  - component: {fileID: 1809888587}
   m_Layer: 0
   m_Name: GreenCube
   m_TagString: Untagged
@@ -1315,6 +1405,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c738c965a24bd4b0298ea1517a11d4c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1809888587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809888581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ca2073441fd74da388bdd454acc7536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1843804971
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,6 +1447,7 @@ RectTransform:
   - {fileID: 936093396}
   - {fileID: 142584330}
   - {fileID: 19504067}
+  - {fileID: 1033042083}
   m_Father: {fileID: 513846893}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
