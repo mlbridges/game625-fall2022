@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{ED5BC05E-2B6A-C490-3CE3-4F41654C3589}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2a875023-c48c-4a83-a872-09f3ec1dd697" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/enemyScript.cs">
+    <Files>
+      <File FileName="Assets/Patterns/1. Command/Rebind keys/Scripts/GameController.cs" Line="150" Column="39" />
+      <File FileName="Assets/Patterns/1. Command/Rebind keys/Scripts/MoveObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/Patterns/1. Command/Rebind keys/Scripts/Commands/DoNothingCommand.cs" Line="1" Column="1" />
+      <File FileName="Assets/Patterns/1. Command/Rebind keys/Scripts/Commands/MoveBackCommand.cs" Line="20" Column="35" />
+      <File FileName="Assets/Patterns/1. Command/Rebind keys/Scripts/Commands/MoveForwardCommand.cs" Line="1" Column="1" />
+      <File FileName="Assets/Patterns/1. Command/Rebind keys/Scripts/Commands/TurnLeftCommand.cs" Line="1" Column="1" />
+      <File FileName="Assets/Patterns/1. Command/Rebind keys/Scripts/Commands/TurnRightCommand.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/MovePlayer.cs" Line="29" Column="29" NotebookId="1" />
+      <File FileName="Assets/_Scripts/CommandExecuter.cs" Line="28" Column="41" NotebookId="1" />
+      <File FileName="Assets/_Scripts/MovePlayerBack.cs" Line="5" Column="1" NotebookId="1" />
+      <File FileName="Assets/_Scripts/MovePlayerLeft.cs" Line="13" Column="6" NotebookId="1" />
+      <File FileName="Assets/_Scripts/MovePlayerRight.cs" Line="26" Column="2" NotebookId="1" />
+      <File FileName="Assets/_Scripts/MovePlyaerForward.cs" Line="24" Column="31" NotebookId="1" />
+      <File FileName="Assets/Patterns/1. Command/Command.cs" Line="9" Column="33" NotebookId="1" />
+      <File FileName="Assets/enemyScript.cs" Line="34" Column="75" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyDesignPattern" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
