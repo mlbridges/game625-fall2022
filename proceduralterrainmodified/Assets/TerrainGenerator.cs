@@ -15,7 +15,7 @@ public class TerrainGenerator : MonoBehaviour
     Terrain terrain;
     float z_offset = 0;
     float x_offset = 0;
-    float speed = 10;
+    float speed = 7;
 
     // Start is called before the first frame update
     void Start()
@@ -55,7 +55,7 @@ public class TerrainGenerator : MonoBehaviour
         }
         else
         {
-            speed = 10;
+            speed = 7;
         }
 
         // get heights map to modify it
