@@ -87,13 +87,13 @@ public class CommandExecuter : MonoBehaviour
         Debug.Log("rewind beginning");
         OnRewinding();
         //convert the undo stack into an array
-        Command[] oldCommands = undoCommands.ToArray();
+ 
         
         //since the array is inverted, we play it in the order it's already in
-        for(int i = 0; i <= oldCommands.Length - 1; i++)
+        for(int i = 0; i <= undoCommands.Count - 1; i++)
         {
             Debug.Log("rewinding");
-            Command currentCommand = oldCommands[i];
+            Command currentCommand = undoCommands.Pop();
             currentCommand.Undo();
 
             yield return new WaitForSeconds(RewindTime);
