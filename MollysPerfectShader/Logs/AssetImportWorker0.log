@@ -1,0 +1,400 @@
+Unity Editor version:    2021.3.10f1 (1c7d0df0160b)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3.1 (Build 21E258)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mollybridges/Desktop/AU/22-23/game dev 2/game625-fall2022/MollysPerfectShader
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50261
+Successfully changed project path to: /Users/mollybridges/Desktop/AU/22-23/game dev 2/game625-fall2022/MollysPerfectShader
+/Users/mollybridges/Desktop/AU/22-23/game dev 2/game625-fall2022/MollysPerfectShader
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 99.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mollybridges/Desktop/AU/22-23/game dev 2/game625-fall2022/MollysPerfectShader/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001226 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 100.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.498 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1499ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1114ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (141ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (794ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (484ms)
+				ProcessInitializeOnLoadMethodAttributes (184ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002902 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mollybridges/Desktop/AU/22-23/game dev 2/game625-fall2022/MollysPerfectShader/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mollybridges/Desktop/AU/22-23/game dev 2/game625-fall2022/MollysPerfectShader/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.425 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2427ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1907ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (1225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (931ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (96.8 KB). Loaded Objects now: 3837.
+Memory consumption went from 230.6 MB to 230.5 MB.
+Total: 3.142542 ms (FindLiveObjects: 0.191000 ms CreateObjectMapping: 0.086042 ms MarkObjects: 2.732042 ms  DeleteObjects: 0.132417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25471.783311 seconds.
+  path: Assets/materialForShader.mat
+  artifactKey: Guid(75c0cf7d063b34253ba4c27499bc7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materialForShader.mat using Guid(75c0cf7d063b34253ba4c27499bc7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b35f604c0f9725126126efee9412fe') in 0.733838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.464366 seconds.
+  path: Assets/YeOldeShader.shader
+  artifactKey: Guid(6e2ae817c5193424fb37f3b2500b4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YeOldeShader.shader using Guid(6e2ae817c5193424fb37f3b2500b4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fee94f78c57ec8196b09804d4192df') in 0.054104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1919.834443 seconds.
+  path: Assets/IdenticalCode.shader
+  artifactKey: Guid(7b5f4dc8e1be9486bb3475b5450cb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IdenticalCode.shader using Guid(7b5f4dc8e1be9486bb3475b5450cb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cea20ade07be2600d234d602919257') in 0.002237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 186.712022 seconds.
+  path: Assets/materialForShader.mat
+  artifactKey: Guid(75c0cf7d063b34253ba4c27499bc7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materialForShader.mat using Guid(75c0cf7d063b34253ba4c27499bc7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99940156da30cdf6fb8a8febab04a4bb') in 0.129811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 390.104248 seconds.
+  path: Assets/materialForShader.mat
+  artifactKey: Guid(75c0cf7d063b34253ba4c27499bc7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materialForShader.mat using Guid(75c0cf7d063b34253ba4c27499bc7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59d9da92fe85c4c7c9c23560d07390f') in 0.017639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.551277 seconds.
+  path: Assets/materialForShader.mat
+  artifactKey: Guid(75c0cf7d063b34253ba4c27499bc7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materialForShader.mat using Guid(75c0cf7d063b34253ba4c27499bc7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) State comes from an incompatible keyword space
+State comes from an incompatible keyword space
+ -> (artifact id: '8e63e635fef0e2a0275a06c23dd0ff41') in 0.032204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.061433 seconds.
+  path: Assets/WhiteNoise.cginc
+  artifactKey: Guid(0c8416ba50a074cfda3fe852ed6c8cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteNoise.cginc using Guid(0c8416ba50a074cfda3fe852ed6c8cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea96591765358038ac6437341b4c752') in 0.051027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.529946 seconds.
+  path: Assets/IdenticalCode.shader
+  artifactKey: Guid(7b5f4dc8e1be9486bb3475b5450cb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IdenticalCode.shader using Guid(7b5f4dc8e1be9486bb3475b5450cb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b) State comes from an incompatible keyword space
+State comes from an incompatible keyword space
+ -> (artifact id: 'f6c86792d8d501bcc36befaac618a545') in 0.003369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.530293 seconds.
+  path: Assets/IdenticalCode.shader
+  artifactKey: Guid(7b5f4dc8e1be9486bb3475b5450cb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IdenticalCode.shader using Guid(7b5f4dc8e1be9486bb3475b5450cb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96fe975f698a470338568269a78336c') in 0.002106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005289 seconds.
+  path: Assets/materialForShader.mat
+  artifactKey: Guid(75c0cf7d063b34253ba4c27499bc7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materialForShader.mat using Guid(75c0cf7d063b34253ba4c27499bc7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73c1d5293f4b688980ac0cba8668c07') in 0.037354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.710044 seconds.
+  path: Assets/IdenticalCode.shader
+  artifactKey: Guid(7b5f4dc8e1be9486bb3475b5450cb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IdenticalCode.shader using Guid(7b5f4dc8e1be9486bb3475b5450cb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ded402bd1e19e75ee14e5f3e85808c') in 0.001541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.534609 seconds.
+  path: Assets/IdenticalCode.shader
+  artifactKey: Guid(7b5f4dc8e1be9486bb3475b5450cb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IdenticalCode.shader using Guid(7b5f4dc8e1be9486bb3475b5450cb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c58b190ca80b88b3da0d9d6e5470cd0') in 0.003626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.840588 seconds.
+  path: Assets/IdenticalCode.shader
+  artifactKey: Guid(7b5f4dc8e1be9486bb3475b5450cb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IdenticalCode.shader using Guid(7b5f4dc8e1be9486bb3475b5450cb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1621e316211ba432c60ca6ef8897c967') in 0.002292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.398952 seconds.
+  path: Assets/materialForShader.mat
+  artifactKey: Guid(75c0cf7d063b34253ba4c27499bc7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materialForShader.mat using Guid(75c0cf7d063b34253ba4c27499bc7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d32dae89edca50a5ab7b4253f6db96b') in 0.041784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 813.823742 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png
+  artifactKey: Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png using Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5271b3575eefaa4bdba69992d4e8e35b') in 0.410219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png
+  artifactKey: Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png using Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f75ddf09df99fe187db24f59536fc6') in 0.032698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png
+  artifactKey: Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png using Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bc88bbdecf1f77ec14d26ad523698c') in 0.006748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png
+  artifactKey: Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png using Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9001ffb55173d70969bcb6ebf95ed69') in 0.006493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.769369 seconds.
+  path: Assets/83297728_859020161196477_7402182564774936576_n.jpg
+  artifactKey: Guid(d5eee077c28da4ed5b76d41714cdf3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/83297728_859020161196477_7402182564774936576_n.jpg using Guid(d5eee077c28da4ed5b76d41714cdf3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86e87e5321cbbd6f1b7c68d039ab297') in 0.346948 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001882 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mollybridges/Desktop/AU/22-23/game dev 2/game625-fall2022/MollysPerfectShader/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mollybridges/Desktop/AU/22-23/game dev 2/game625-fall2022/MollysPerfectShader/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.426 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2428ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1927ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (338ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1226ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (945ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (410.6 KB). Loaded Objects now: 3886.
+Memory consumption went from 257.8 MB to 257.4 MB.
+Total: 2.840000 ms (FindLiveObjects: 0.192709 ms CreateObjectMapping: 0.076292 ms MarkObjects: 2.300625 ms  DeleteObjects: 0.269292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19.945110 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd
+  artifactKey: Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd using Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8201d79be9fc423d6f7f3d6d815a96') in 0.631272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.086843 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd
+  artifactKey: Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cfc1279a46fbaf1919953bf728d691') in 0.015161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070636 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd
+  artifactKey: Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd using Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4236eaaea3dbcc2795706b84fd959930') in 0.009793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd
+  artifactKey: Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd using Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03fa845761212c2e46fac3b4343677a') in 0.006732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036234 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd
+  artifactKey: Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd using Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe7d1f075d98d33dc2c1ed45056eb5a') in 0.006342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd
+  artifactKey: Guid(81ed8c76d2bc4a4c95d092c98af4e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd using Guid(81ed8c76d2bc4a4c95d092c98af4e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aede8093aac20b33f19bb27205017204') in 0.007021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042182 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd
+  artifactKey: Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd using Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b015c9d5bdadc3317989916f713e5cc3') in 0.006144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072985 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd
+  artifactKey: Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd using Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c314c1eab5db39322d40cbb3d09b00c') in 0.006668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.419740 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush_Light.psd
+  artifactKey: Guid(64b9fad609434c489c32b1cdf2004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush_Light.psd using Guid(64b9fad609434c489c32b1cdf2004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080ca94bd020d165cb99e13f0475fd69') in 0.007762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 137.525393 seconds.
+  path: Assets/materialForShader.mat
+  artifactKey: Guid(75c0cf7d063b34253ba4c27499bc7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materialForShader.mat using Guid(75c0cf7d063b34253ba4c27499bc7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b24801a4056dec359452733eeb5126') in 0.125188 seconds 
