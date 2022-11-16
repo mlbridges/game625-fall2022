@@ -1,7 +1,12 @@
 ﻿<Properties>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/YeOldeShader.shader">
     <Files>
-      <File FileName="Assets/YeOldeShader.shader" Line="71" Column="58" />
+      <File FileName="Assets/YeOldeShader.shader" Line="38" Column="19" />
       <File FileName="Assets/IdenticalCode.shader" Line="14" Column="1" />
     </Files>
     <Pads>
@@ -16,9 +21,4 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
